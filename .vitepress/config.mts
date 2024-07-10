@@ -22,7 +22,8 @@ export default {
     search: {
       provider: 'local'
     },
-    base: '/webdev/'
+    base: '/webdev/',
+    outDir: '/html',
     // socialLinks: [
     //   { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     // ]
