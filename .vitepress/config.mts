@@ -2,11 +2,9 @@
 
 // https://vitepress.dev/reference/site-configimport { withTwoslash } from 'vitepress-plugin-shiki-twoslash'
  
-import { defineConfig } from 'vitepress'
 import { withTwoslash } from 'vitepress-plugin-shiki-twoslash'
 
-export default withTwoslash(
-  defineConfig({
+export default withTwoslash({
   title: "George's Blog",
   description: "Web development made easy",
   themeConfig: {
@@ -31,5 +29,4 @@ export default withTwoslash(
     //   { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     // ]
   }
-}),
-)
+})
