@@ -23,8 +23,6 @@ export default {
       provider: 'local'
     },
     base: '/webdev/',
-    output_location: '/.vitepress/dist',
-    app_build_command: 'npm run docs:build',
     // socialLinks: [
     //   { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     // ]
