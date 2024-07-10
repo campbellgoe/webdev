@@ -23,6 +23,7 @@ export default {
       provider: 'local'
     },
     base: '/webdev/',
+    outDir: 'dist'
     // socialLinks: [
     //   { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
     // ]
