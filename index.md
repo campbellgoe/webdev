@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: span
-      link: /html/span.md
+      link: /docs/span.md
 
 features:
   - title: HTML
